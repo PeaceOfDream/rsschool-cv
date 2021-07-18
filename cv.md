@@ -9,7 +9,7 @@ I am currently working as a sales manager. I am actively mastering the professio
 - GIT
 
 #### Education
-Graduated from **BSEU** with a degree in *Economics and Enterprise Management*.
+Graduated from **BSEU** with a degree in ***Economics and Enterprise Management***.
 
 #### Sample code
 ```<body>
