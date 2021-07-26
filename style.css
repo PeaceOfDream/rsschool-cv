@@ -1,0 +1,40 @@
+body {
+	margin: auto;
+	width: 800px;
+	position: relative;
+}
+header, main, footer {
+	position: absolute;
+}
+header, main {
+	left: 260px;
+	padding: 0 20px 50px 20px;
+	border-radius: 10px;
+}
+header {
+	top: 20px;
+	background-color: rgb(192, 210, 218);
+}
+h1, h2{
+	font-variant: small-caps;
+}
+figure {
+	padding-top: 20px;
+}
+img {
+	border-radius: 20px;
+}
+main {
+	top: 210px;
+	background-color: rgb(106, 109, 109);
+}
+main>div {
+	color: azure;
+}
+
+section, footer {
+	padding-left: 40px;
+}
+
+
+	

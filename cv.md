@@ -1,4 +1,4 @@
-# Dzmitriy Bartashevich 
+# Dzmitry Bartashevich 
 ### Contacts for communication   |  30888742@mail.ru
 
 I am currently working as a sales manager. I am actively mastering the profession *Frontend-development*. Lego-trainable, I quickly find contact with people.
@@ -12,7 +12,7 @@ I am currently working as a sales manager. I am actively mastering the professio
 Graduated from **BSEU** with a degree in ***Economics and Enterprise Management***.
 
 #### Sample code
-```<body>
+<body>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -45,5 +45,5 @@ Graduated from **BSEU** with a degree in ***Economics and Enterprise Management*
     </header>
 </body>
 
-</html>
+</html>```
 ```
