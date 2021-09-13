@@ -21,3 +21,4 @@ Pre-Intermediate
   numbers[5] = `${numbers[5]}-`;
   return numbers.join('');
 }
+

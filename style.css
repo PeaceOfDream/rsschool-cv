@@ -11,6 +11,13 @@ header, main {
 	padding: 0 20px 50px 20px;
 	border-radius: 10px;
 }
+main {
+	top: 210px;
+	background-color: rgb(106, 109, 109);
+}
+main>div {
+	color: azure;
+}
 header {
 	top: 20px;
 	background-color: rgb(192, 210, 218);
@@ -24,14 +31,6 @@ figure {
 img {
 	border-radius: 20px;
 }
-main {
-	top: 210px;
-	background-color: rgb(106, 109, 109);
-}
-main>div {
-	color: azure;
-}
-
 section, footer {
 	padding-left: 40px;
 }
