@@ -1,1 +1,1 @@
-https://github.com/PeaceOfDream/rsschool-cv.git
+https://peaceofdream.github.io/rsschool-cv/
