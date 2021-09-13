@@ -22,6 +22,7 @@
 		<li>HTML</li>
 		<li>CSS</li>
 		<li>GIT</li>
+		<li>JS</li>
 		<li>English A2 level</li>
 	</ul>
 	</section>
@@ -32,33 +33,23 @@
 		<h2>Sample code</h2>
 		<div>	
 	<pre>
-&ltheader class="header"&gt
-&ltdiv class="header__top"&gt
-&ltdiv class="container"&gt
-&ltdiv class="header__contacts"&gt
-&lta class="header__phone" href="tel:380963092145"&gt+38(096)3092145&lt/a&gt
-&lta class="header__email" href="#"&gtlayout@mail.com&lt/a&gt
-&lta class="header__btn" href="#"&gtFree consultation&lt/a&gt
-&lt/div&gt
-&lt/div&gt
-&lt/div&gt
-&ltdiv class="header__content"&gt
-&ltdiv class="container"&gt
-&ltdiv class="header__content-inner"&gt
-&ltdiv class="header__logo"&gt
-&lta href="#"&gt
-&ltimg src="img/logo.png" alt=""&gt
-&lt/a&gt
-&lt/div&gt
-&ltnav class="menu"&gt
-&ltul&gt
-&ltli>&lta href="#">Head&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">About company&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">Services&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">Contacts&lt/a&gt&lt/li&gt
-&lt/ul&gt
-&lt/nav&gt&lt/div&gt&lt/div&gt&lt/div&gt
-&lt/header&gt</pre>
+const whosOnline = (friends) => {
+    let result = {};
+  
+    friends.forEach(item => { let status = item.status;
+        if(status === 'online' && item.lastActivity > 10) status = 'away';
+        let temp = result[status];
+        if(result[status]) {
+            result[status].push(item.username);
+        }
+        else {
+            result[status] = [item.username];
+        }
+    });
+  
+    return result;
+}
+</pre>
 		</div>
 	</main>
 	<footer>

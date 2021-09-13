@@ -11,7 +11,7 @@ I am currently working as a sales manager. I am actively mastering the professio
 
 #### Education
 Graduated from **BSEU** with a degree in ***Economics and Enterprise Management***.
-<<<<<<< HEAD
+
 #### English 
 Pre-Intermediate
 #### Sample code which Create Phone Number
@@ -21,3 +21,4 @@ Pre-Intermediate
   numbers[5] = `${numbers[5]}-`;
   return numbers.join('');
 }
+
