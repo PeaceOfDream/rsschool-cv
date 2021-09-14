@@ -1,6 +1,6 @@
 body {
 	margin: auto;
-	width: 800px;
+	width: 828px;
 	position: relative;
 }
 header, main, footer {
@@ -10,13 +10,6 @@ header, main {
 	left: 260px;
 	padding: 0 20px 50px 20px;
 	border-radius: 10px;
-}
-main {
-	top: 210px;
-	background-color: rgb(106, 109, 109);
-}
-main>div {
-	color: azure;
 }
 header {
 	top: 20px;
@@ -31,9 +24,16 @@ figure {
 img {
 	border-radius: 20px;
 }
+main {
+	top: 210px;
+	background-color: rgb(106, 109, 109);
+}
+main>div {
+	color: azure;
+}
+
 section, footer {
 	padding-left: 40px;
 }
-
 
 	

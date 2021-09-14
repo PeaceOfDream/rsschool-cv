@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>CV</title>
+	<title>Document</title>
 </head>
+
 <body>
 	<Header>
 		<h1>Dzmitry Bartashevich</h1>
 		<div>I am currently working as a sales manager. I am actively mastering the profession Frontend-development.
-		Lego-trainable, I quickly find contact with people.</div>
+			Lego-trainable, I quickly find contact with people.</div>
 	</Header>
 	<figure>
 		<div><img src="avatar3219.jpg" alt="avatar"></div>
 	</figure>
 	<section>
-	<h2>Skills:</h2>
-	<ul>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>GIT</li>
-		<li>English A2 level</li>
-	</ul>
+		<h2>Skills:</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>GIT</li>
+			<li>JS</li>
+			<li>English A2 level</li>
+		</ul>
 	</section>
 	<main>
 		<h2>Education</h2>
 		<div>Graduated from BSEU with a degree in Economics and Enterprise Management. </div>
 
 		<h2>Sample code</h2>
-		<div>	
-	<pre>
-&ltheader class="header"&gt
-&ltdiv class="header__top"&gt
-&ltdiv class="container"&gt
-&ltdiv class="header__contacts"&gt
-&lta class="header__phone" href="tel:380963092145"&gt+38(096)3092145&lt/a&gt
-&lta class="header__email" href="#"&gtlayout@mail.com&lt/a&gt
-&lta class="header__btn" href="#"&gtFree consultation&lt/a&gt
-&lt/div&gt
-&lt/div&gt
-&lt/div&gt
-&ltdiv class="header__content"&gt
-&ltdiv class="container"&gt
-&ltdiv class="header__content-inner"&gt
-&ltdiv class="header__logo"&gt
-&lta href="#"&gt
-&ltimg src="img/logo.png" alt=""&gt
-&lt/a&gt
-&lt/div&gt
-&ltnav class="menu"&gt
-&ltul&gt
-&ltli>&lta href="#">Head&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">About company&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">Services&lt/a&gt&lt/li&gt
-&ltli>&lta href="#">Contacts&lt/a&gt&lt/li&gt
-&lt/ul&gt
-&lt/nav&gt&lt/div&gt&lt/div&gt&lt/div&gt
-&lt/header&gt</pre>
+		<div>
+			<pre>
+const whosOnline = (friends) => {
+    let result = {};
+  
+    friends.forEach(item => { let status = item.status;
+        if(status === 'online' && item.lastActivity > 10) status = 'away';
+        let temp = result[status];
+        if(result[status]) {
+            result[status].push(item.username);
+        }
+        else {
+            result[status] = [item.username];
+        }
+    });
+  
+    return result;
+}
+</pre>
 		</div>
 	</main>
 	<footer>
@@ -69,4 +62,5 @@
 		</Ul>
 	</footer>
 </body>
+
 </html>
