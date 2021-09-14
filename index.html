@@ -6,15 +6,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 	<title>Document</title>
 </head>
 
 <body>
+	<div class="wrapper">
 	<Header>
+		<div class="header">
 		<h1>Dzmitry Bartashevich</h1>
 		<div>I am currently working as a sales manager. I am actively mastering the profession Frontend-development.
 			Lego-trainable, I quickly find contact with people.</div>
-	</Header>
+	</div>
+</Header>
 	<figure>
 		<div><img src="avatar3219.jpg" alt="avatar"></div>
 	</figure>
@@ -29,12 +35,14 @@
 		</ul>
 	</section>
 	<main>
+		<div class="main">
 		<h2>Education</h2>
 		<div>Graduated from BSEU with a degree in Economics and Enterprise Management. </div>
 
 		<h2>Sample code</h2>
 		<div>
 			<pre>
+				<code class="html">
 const whosOnline = (friends) => {
     let result = {};
   
@@ -51,7 +59,8 @@ const whosOnline = (friends) => {
   
     return result;
 }
-</pre>
+</code>
+</pre></div>
 		</div>
 	</main>
 	<footer>
@@ -61,6 +70,7 @@ const whosOnline = (friends) => {
 			<li>@PeaceOfDream</li>
 		</Ul>
 	</footer>
+	</div>
 </body>
 
 </html>
