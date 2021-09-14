@@ -1,7 +1,13 @@
 body {
 	margin: auto;
-	width: 828px;
+	width: 841px;
 	position: relative;
+}
+.wrapper {
+	max-width: 1440px;
+	height: 730px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 header, main, footer {
 	position: absolute;
@@ -11,16 +17,12 @@ header, main {
 	padding: 0 20px 50px 20px;
 	border-radius: 10px;
 }
-main {
-	top: 210px;
-	background-color: rgb(106, 109, 109);
-}
-main>div {
-	color: azure;
-}
 header {
 	top: 20px;
 	background-color: rgb(192, 210, 218);
+}
+.main {
+	box-sizing: border-box;
 }
 h1, h2{
 	font-variant: small-caps;
@@ -31,9 +33,16 @@ figure {
 img {
 	border-radius: 20px;
 }
+main {
+	top: 210px;
+	background-color: rgb(106, 109, 109);
+}
+main>div {
+	color: azure;
+}
+
 section, footer {
 	padding-left: 40px;
 }
-
 
 	
